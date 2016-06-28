@@ -27,4 +27,15 @@ app.get('/logout', function(req, res) {
   res.end('<a href=\'/\'>Start Again</a>');
 });
 
+app.get('/auth', function(req, res) {
+
+  var message = 'User failed to authenticate.';
+  if (req.session.views) {
+
+    message = 'User has been authenticated.';
+  }
+
+  res.end('<h1>' + message + '</h1>');
+});
+
 app.listen(8080);
