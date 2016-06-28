@@ -11,5 +11,14 @@
   "dependencies": {
     "cookie-session": "^2.0.0-alpha.1",
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkaffrey/CookiesPt2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkaffrey/CookiesPt2/issues"
+  },
+  "homepage": "https://github.com/jkaffrey/CookiesPt2#readme"
 }
